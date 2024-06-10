@@ -1,22 +1,34 @@
-Essential Requirements
-Hardware:
+# Real-Time ASR for Deaf Individuals
 
-  Microphone: High-quality microphone for clear audio capture.
-  Computer: A machine with sufficient processing power and RAM to handle real-time transcription.
-Software:
+This project is an Automated Speech Recognition (ASR) application designed to assist deaf individuals by transcribing spoken language into text in real-time. The app uses the Google Web Speech API via the `speech_recognition` library in Python and features a user-friendly graphical interface built with Tkinter.
 
-  Operating System: Windows, macOS, or Linux.
-  Python Environment: Python 3.6+.
-  Libraries:
-    speech_recognition: For capturing and processing audio input.
-    pyaudio: For accessing the microphone.
-    tkinter or PyQt or Kivy: For creating the graphical user interface.
-    threading: To handle real-time audio processing and UI updates.
-  Best Speech Recognition APIs/Libraries
-    Google Web Speech API: Highly accurate and supports multiple languages.
+## Features
 
-To integrate the capture_audio function into the ASRApp class, you'll need to modify the class to handle audio capture and update the text area with the recognized speech. Here's how you can do it:
+- Real-time transcription of spoken language into text
+- Customizable text size and color
+- Visual alerts for important notifications
+- Simple and intuitive user interface
 
-1. Modify the ASRApp class to include audio capture and update the text area with recognized text.
+## Requirements
 
-2. Add threading to ensure the UI remains responsive while capturing and processing audio.
+### Hardware
+
+- Microphone: High-quality microphone for clear audio capture.
+- Computer: A machine with sufficient processing power and RAM to handle real-time transcription.
+
+### Software
+
+- Operating System: Windows, macOS, or Linux
+- Python 3.6+
+- Libraries:
+  - `speech_recognition`
+  - `pyaudio`
+  - `tkinter` (bundled with Python)
+
+## Installation
+
+1. **Clone the Repository**
+
+```sh
+git clone https://github.com/your-username/real-time-asr-for-deaf-individuals.git
+cd real-time-asr-for-deaf-individuals
